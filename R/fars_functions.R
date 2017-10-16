@@ -22,7 +22,8 @@
 #'fars_read('accident_2013.csv')
 #'
 #'@export
-
+library(readr)
+library(dplyr)
 fars_read <- function(filename) {
         if(!file.exists(filename))
                 stop("file '", filename, "' does not exist")
@@ -83,6 +84,7 @@ make_filename <- function(year) {
 #'fars_read_years(2005)
 #'
 #'@export
+library(magrittr)
 fars_read_years <- function(years) {
         lapply(years, function(year) {
                 file <- make_filename(year)
