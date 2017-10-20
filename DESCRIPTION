@@ -5,9 +5,8 @@ Version: 0.1.0
 Author: Sherry Xiu
 Maintainer: Sherry Xiu <sherryxiu0305@gmail.com>
 Description:This package is to read csv data about accidents and can either
-summarize the data into monthly basis, or graph accidents on the map of the
-spcecified states.
-
+	summarize the data into monthly basis, or graph accidents on the map of the
+	spcecified states.
 License: MIT Licnese
 Encoding: UTF-8
 LazyData: true
