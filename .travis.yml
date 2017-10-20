@@ -4,3 +4,4 @@ language: R
 sudo: false
 cache: packages
 Remotes: hadley/testthat
+Remotes: tidyverse/readr
