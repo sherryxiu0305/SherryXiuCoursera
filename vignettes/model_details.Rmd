@@ -69,9 +69,13 @@ library(magrittr)
 library(dplyr)
 ```
 
+```{r echo=FALSE}
+source('../R/fars_functions.R')
+```
+
 First, we can implement the `fars_summarize_years()` function:
 
-```{r,echo=TRUE}
+```{r,fsy,echo=TRUE}
 fars_summarize_years(2015)
 ```
 
