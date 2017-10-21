@@ -3,5 +3,7 @@
 language: R
 sudo: false
 cache: packages
-Remotes: hadley/testthat
-Remotes: tidyverse/readr
+r_github_packages:
+  - hadley/httr
+  - hadley/testthat
+  - tidyverse/readr
