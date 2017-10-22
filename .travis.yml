@@ -7,4 +7,5 @@ r_github_packages:
   - hadley/httr
   - hadley/testthat
   - tidyverse/dplyr
+  - tidyverse/tidyr
   - tidyverse/readr
