@@ -8,4 +8,5 @@ r_github_packages:
   - hadley/testthat
   - tidyverse/dplyr
   - tidyverse/tidyr
+  - tidyverse/magrittr
   - tidyverse/readr
