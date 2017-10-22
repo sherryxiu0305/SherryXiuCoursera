@@ -10,3 +10,6 @@ r_github_packages:
   - tidyverse/tidyr
   - tidyverse/magrittr
   - tidyverse/readr
+r_packages:
+  - maps
+  - graphics

@@ -172,8 +172,8 @@ fars_summarize_years <- function(years) {
 #'@importFrom
 #'library(magrittr)
 #'library(dplyr)
-library(maps)
-library(graphics)
+#'library(maps)
+#'library(graphics)
 #'fars_read()
 #'make_filename()
 #'
